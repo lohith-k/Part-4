@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization :bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImxvaGl0aCIsImlkIjoiNjBiYTY1ZjljYzY4NmIyNzc0ZDQyNTYwIiwiaWF0IjoxNjIyODcxNTc0fQ.5ATS8fIGIeEb6sMYRRMsuRchg3aUqZmYCpogNU0wG3E
+
+{
+    "title": "token blog",
+"author": "thomas",
+"url":"blog.com",
+"likes":30
+}
